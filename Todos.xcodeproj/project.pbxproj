@@ -7,22 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		079DA3DB290678EF005DC1E1 /* TodosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079DA3DA290678EF005DC1E1 /* TodosApp.swift */; };
-		079DA3DD290678EF005DC1E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079DA3DC290678EF005DC1E1 /* ContentView.swift */; };
-		079DA3DF290678F1005DC1E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079DA3DE290678F1005DC1E1 /* Assets.xcassets */; };
-		079DA3E2290678F1005DC1E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079DA3E1290678F1005DC1E1 /* Preview Assets.xcassets */; };
+		079DA3F5290679D1005DC1E1 /* TodosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079DA3F4290679D1005DC1E1 /* TodosApp.swift */; };
+		079DA3F7290679D1005DC1E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079DA3F6290679D1005DC1E1 /* ContentView.swift */; };
+		079DA3F9290679D2005DC1E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079DA3F8290679D2005DC1E1 /* Assets.xcassets */; };
+		079DA3FD290679D2005DC1E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079DA3FC290679D2005DC1E1 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		079DA3D7290678EF005DC1E1 /* Todos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todos.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		079DA3DA290678EF005DC1E1 /* TodosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosApp.swift; sourceTree = "<group>"; };
-		079DA3DC290678EF005DC1E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		079DA3DE290678F1005DC1E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		079DA3E1290678F1005DC1E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		079DA3F1290679D1005DC1E1 /* Todos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		079DA3F4290679D1005DC1E1 /* TodosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosApp.swift; sourceTree = "<group>"; };
+		079DA3F6290679D1005DC1E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		079DA3F8290679D2005DC1E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		079DA3FA290679D2005DC1E1 /* Todos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Todos.entitlements; sourceTree = "<group>"; };
+		079DA3FC290679D2005DC1E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		079DA3D4290678EF005DC1E1 /* Frameworks */ = {
+		079DA3EE290679D1005DC1E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		079DA3CE290678EF005DC1E1 = {
+		079DA3E8290679D1005DC1E1 = {
 			isa = PBXGroup;
 			children = (
-				079DA3D9290678EF005DC1E1 /* Todos */,
-				079DA3D8290678EF005DC1E1 /* Products */,
+				079DA3F3290679D1005DC1E1 /* Todos */,
+				079DA3F2290679D1005DC1E1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		079DA3D8290678EF005DC1E1 /* Products */ = {
+		079DA3F2290679D1005DC1E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				079DA3D7290678EF005DC1E1 /* Todos.app */,
+				079DA3F1290679D1005DC1E1 /* Todos.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		079DA3D9290678EF005DC1E1 /* Todos */ = {
+		079DA3F3290679D1005DC1E1 /* Todos */ = {
 			isa = PBXGroup;
 			children = (
-				079DA3DA290678EF005DC1E1 /* TodosApp.swift */,
-				079DA3DC290678EF005DC1E1 /* ContentView.swift */,
-				079DA3DE290678F1005DC1E1 /* Assets.xcassets */,
-				079DA3E0290678F1005DC1E1 /* Preview Content */,
+				079DA3F4290679D1005DC1E1 /* TodosApp.swift */,
+				079DA3F6290679D1005DC1E1 /* ContentView.swift */,
+				079DA3F8290679D2005DC1E1 /* Assets.xcassets */,
+				079DA3FA290679D2005DC1E1 /* Todos.entitlements */,
+				079DA3FB290679D2005DC1E1 /* Preview Content */,
 			);
 			path = Todos;
 			sourceTree = "<group>";
 		};
-		079DA3E0290678F1005DC1E1 /* Preview Content */ = {
+		079DA3FB290679D2005DC1E1 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				079DA3E1290678F1005DC1E1 /* Preview Assets.xcassets */,
+				079DA3FC290679D2005DC1E1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,13 +72,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		079DA3D6290678EF005DC1E1 /* Todos */ = {
+		079DA3F0290679D1005DC1E1 /* Todos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 079DA3E5290678F1005DC1E1 /* Build configuration list for PBXNativeTarget "Todos" */;
+			buildConfigurationList = 079DA400290679D2005DC1E1 /* Build configuration list for PBXNativeTarget "Todos" */;
 			buildPhases = (
-				079DA3D3290678EF005DC1E1 /* Sources */,
-				079DA3D4290678EF005DC1E1 /* Frameworks */,
-				079DA3D5290678EF005DC1E1 /* Resources */,
+				079DA3ED290679D1005DC1E1 /* Sources */,
+				079DA3EE290679D1005DC1E1 /* Frameworks */,
+				079DA3EF290679D1005DC1E1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +86,25 @@
 			);
 			name = Todos;
 			productName = Todos;
-			productReference = 079DA3D7290678EF005DC1E1 /* Todos.app */;
+			productReference = 079DA3F1290679D1005DC1E1 /* Todos.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		079DA3CF290678EF005DC1E1 /* Project object */ = {
+		079DA3E9290679D1005DC1E1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					079DA3D6290678EF005DC1E1 = {
+					079DA3F0290679D1005DC1E1 = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = 079DA3D2290678EF005DC1E1 /* Build configuration list for PBXProject "Todos" */;
+			buildConfigurationList = 079DA3EC290679D1005DC1E1 /* Build configuration list for PBXProject "Todos" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +112,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 079DA3CE290678EF005DC1E1;
-			productRefGroup = 079DA3D8290678EF005DC1E1 /* Products */;
+			mainGroup = 079DA3E8290679D1005DC1E1;
+			productRefGroup = 079DA3F2290679D1005DC1E1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				079DA3D6290678EF005DC1E1 /* Todos */,
+				079DA3F0290679D1005DC1E1 /* Todos */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		079DA3D5290678EF005DC1E1 /* Resources */ = {
+		079DA3EF290679D1005DC1E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				079DA3E2290678F1005DC1E1 /* Preview Assets.xcassets in Resources */,
-				079DA3DF290678F1005DC1E1 /* Assets.xcassets in Resources */,
+				079DA3FD290679D2005DC1E1 /* Preview Assets.xcassets in Resources */,
+				079DA3F9290679D2005DC1E1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		079DA3D3290678EF005DC1E1 /* Sources */ = {
+		079DA3ED290679D1005DC1E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				079DA3DD290678EF005DC1E1 /* ContentView.swift in Sources */,
-				079DA3DB290678EF005DC1E1 /* TodosApp.swift in Sources */,
+				079DA3F7290679D1005DC1E1 /* ContentView.swift in Sources */,
+				079DA3F5290679D1005DC1E1 /* TodosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		079DA3E3290678F1005DC1E1 /* Debug */ = {
+		079DA3FE290679D2005DC1E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -198,14 +200,12 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = appletvos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TVOS_DEPLOYMENT_TARGET = 16.1;
 			};
 			name = Debug;
 		};
-		079DA3E4290678F1005DC1E1 /* Release */ = {
+		079DA3FF290679D2005DC1E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -251,88 +251,109 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = appletvos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				TVOS_DEPLOYMENT_TARGET = 16.1;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		079DA3E6290678F1005DC1E1 /* Debug */ = {
+		079DA401290679D2005DC1E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Todos/Todos.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Todos/Preview Content\"";
 				DEVELOPMENT_TEAM = JUGJ3Y32BJ;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.backslash-f.Todos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		079DA3E7290678F1005DC1E1 /* Release */ = {
+		079DA402290679D2005DC1E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Todos/Todos.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Todos/Preview Content\"";
 				DEVELOPMENT_TEAM = JUGJ3Y32BJ;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.backslash-f.Todos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		079DA3D2290678EF005DC1E1 /* Build configuration list for PBXProject "Todos" */ = {
+		079DA3EC290679D1005DC1E1 /* Build configuration list for PBXProject "Todos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				079DA3E3290678F1005DC1E1 /* Debug */,
-				079DA3E4290678F1005DC1E1 /* Release */,
+				079DA3FE290679D2005DC1E1 /* Debug */,
+				079DA3FF290679D2005DC1E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		079DA3E5290678F1005DC1E1 /* Build configuration list for PBXNativeTarget "Todos" */ = {
+		079DA400290679D2005DC1E1 /* Build configuration list for PBXNativeTarget "Todos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				079DA3E6290678F1005DC1E1 /* Debug */,
-				079DA3E7290678F1005DC1E1 /* Release */,
+				079DA401290679D2005DC1E1 /* Debug */,
+				079DA402290679D2005DC1E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 079DA3CF290678EF005DC1E1 /* Project object */;
+	rootObject = 079DA3E9290679D1005DC1E1 /* Project object */;
 }
