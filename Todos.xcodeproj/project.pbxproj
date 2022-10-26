@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07236D9529091AEB00068FF6 /* TodosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07236D9429091AEB00068FF6 /* TodosTests.swift */; };
 		079DA3F5290679D1005DC1E1 /* TodosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079DA3F4290679D1005DC1E1 /* TodosApp.swift */; };
 		079DA3F7290679D1005DC1E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079DA3F6290679D1005DC1E1 /* ContentView.swift */; };
 		079DA3F9290679D2005DC1E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079DA3F8290679D2005DC1E1 /* Assets.xcassets */; };
@@ -15,7 +16,19 @@
 		079DA40729067ABF005DC1E1 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 079DA40629067ABF005DC1E1 /* Dependencies */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		07236D9629091AEB00068FF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 079DA3E9290679D1005DC1E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 079DA3F0290679D1005DC1E1;
+			remoteInfo = Todos;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		07236D9229091AEB00068FF6 /* TodosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07236D9429091AEB00068FF6 /* TodosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosTests.swift; sourceTree = "<group>"; };
 		079DA3F1290679D1005DC1E1 /* Todos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		079DA3F4290679D1005DC1E1 /* TodosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosApp.swift; sourceTree = "<group>"; };
 		079DA3F6290679D1005DC1E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,6 +38,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		07236D8F29091AEB00068FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		079DA3EE290679D1005DC1E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +57,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07236D9329091AEB00068FF6 /* TodosTests */ = {
+			isa = PBXGroup;
+			children = (
+				07236D9429091AEB00068FF6 /* TodosTests.swift */,
+			);
+			path = TodosTests;
+			sourceTree = "<group>";
+		};
 		079DA3E8290679D1005DC1E1 = {
 			isa = PBXGroup;
 			children = (
 				079DA3F3290679D1005DC1E1 /* Todos */,
+				07236D9329091AEB00068FF6 /* TodosTests */,
 				079DA3F2290679D1005DC1E1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				079DA3F1290679D1005DC1E1 /* Todos.app */,
+				07236D9229091AEB00068FF6 /* TodosTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +106,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		07236D9129091AEB00068FF6 /* TodosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07236D9A29091AEB00068FF6 /* Build configuration list for PBXNativeTarget "TodosTests" */;
+			buildPhases = (
+				07236D8E29091AEB00068FF6 /* Sources */,
+				07236D8F29091AEB00068FF6 /* Frameworks */,
+				07236D9029091AEB00068FF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07236D9729091AEB00068FF6 /* PBXTargetDependency */,
+			);
+			name = TodosTests;
+			productName = TodosTests;
+			productReference = 07236D9229091AEB00068FF6 /* TodosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		079DA3F0290679D1005DC1E1 /* Todos */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 079DA400290679D2005DC1E1 /* Build configuration list for PBXNativeTarget "Todos" */;
@@ -107,6 +155,10 @@
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
+					07236D9129091AEB00068FF6 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 079DA3F0290679D1005DC1E1;
+					};
 					079DA3F0290679D1005DC1E1 = {
 						CreatedOnToolsVersion = 14.1;
 					};
@@ -129,11 +181,19 @@
 			projectRoot = "";
 			targets = (
 				079DA3F0290679D1005DC1E1 /* Todos */,
+				07236D9129091AEB00068FF6 /* TodosTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		07236D9029091AEB00068FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		079DA3EF290679D1005DC1E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,6 +206,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		07236D8E29091AEB00068FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07236D9529091AEB00068FF6 /* TodosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		079DA3ED290679D1005DC1E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -157,7 +225,56 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		07236D9729091AEB00068FF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 079DA3F0290679D1005DC1E1 /* Todos */;
+			targetProxy = 07236D9629091AEB00068FF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		07236D9829091AEB00068FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JUGJ3Y32BJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.backslash-f.TodosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Todos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Todos";
+			};
+			name = Debug;
+		};
+		07236D9929091AEB00068FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JUGJ3Y32BJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.backslash-f.TodosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Todos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Todos";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		079DA3FE290679D2005DC1E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -346,6 +463,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		07236D9A29091AEB00068FF6 /* Build configuration list for PBXNativeTarget "TodosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07236D9829091AEB00068FF6 /* Debug */,
+				07236D9929091AEB00068FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		079DA3EC290679D1005DC1E1 /* Build configuration list for PBXProject "Todos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

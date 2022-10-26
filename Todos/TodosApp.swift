@@ -34,7 +34,9 @@ struct TodosApp: App {
                         ]
                     ),
                     reducer: appReducer,
-                    environment: AppEnvironment()
+                    environment: AppEnvironment(
+                        uuid: UUID.init
+                    )
                 )
             )
         }
