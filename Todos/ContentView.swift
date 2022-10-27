@@ -5,6 +5,7 @@
 //  Created by Fernando Fernandes on 24.10.22.
 //
 
+import Combine
 import ComposableArchitecture
 import SwiftUI
 
@@ -44,6 +45,7 @@ enum AppAction: Equatable {
 }
 
 struct AppEnvironment {
+    var mainQueue: AnySchedulerOf<DispatchQueue>
     var uuid: () -> UUID
 }
 
@@ -61,8 +63,9 @@ let appReducer = Reducer<AppState, AppAction, AppEnvironment>.combine(
 
         case .todo(index: _, action: .checkboxTapped):
             struct CancelDelayId: Hashable {}
+
             return Effect(value: AppAction.todoDelayCompleted)
-                .delay(for: 1, scheduler: DispatchQueue.main)
+                .delay(for: 1, scheduler: environment.mainQueue)
                 .eraseToEffect()
                 .cancellable(
                     id: CancelDelayId(),
@@ -157,6 +160,7 @@ struct ContentView_Previews: PreviewProvider {
                 ),
                 reducer: appReducer,
                 environment: AppEnvironment(
+                    mainQueue: DispatchQueue.main.eraseToAnyScheduler(),
                     uuid: UUID.init
                 )
             )
